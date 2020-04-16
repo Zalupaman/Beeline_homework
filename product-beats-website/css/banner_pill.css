@@ -1,0 +1,74 @@
+.banner_pill{
+    color:#000;
+}
+.banner_pill-inner{
+    display: flex;
+}
+.choose_color{
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+    
+    border:1px solid #EAEAEA;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.135817);
+}
+.title_box{
+    display: flex;
+    margin-bottom: 20px;
+}
+.title_box .title{
+    font-size: 50px;
+}
+.plus{
+    position: relative;
+    bottom: 32px;
+    font-weight: 500;
+    font-size: 50px;
+    
+}
+.avalaible_colors{
+    font-size: 40px;
+}
+.find_color{
+    font-size: 16px;
+    margin-top: 11px;
+    margin-bottom: 14px;
+}
+.choose_buttons{
+    margin-bottom: 50px;  
+}
+.extra-text_black{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 13px;
+    color:rgba(0, 0, 0, 0.5);
+}
+.beats_pill img{
+    width: 755px
+}
+.beats_pill{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+.slide_select {
+    position: relative;
+    left: 50%;
+    bottom: 131px;
+    width: 100px;
+}
+.slider_button{
+    width: 10px;
+    height: 10px;
+    background-color: #D1D1D1;
+    border: 0px;
+    border-radius: 50%;
+    outline: none;
+    margin-right: 15px;
+}
+.slider_button:last-child{
+    margin-right: 0px;
+}
+.slider_button:focus{
+    background-color: #000000;
+}

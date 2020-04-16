@@ -1,0 +1,59 @@
+.banner_headphones{
+    background-color: #2B2835;
+   z-index: 2;
+   color:#fff;
+}
+.wrapper{
+   
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.wrapper .title{
+    margin-bottom: 40px;
+}
+.info{
+    width: 100%;
+    max-width: 508px;
+    height: 208px;
+    padding: 210px  135px 180px  0 ;
+   
+}
+
+.banner-picture{
+    position: absolute;
+    top: 0px;
+    left: -125px;
+  
+}
+.subtitle{
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 13px;
+}
+.title{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.action-box{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.banner_headphones button{
+    background-color: #FFC700;
+    color: #000;
+}
+.price{
+    font-size: 40px;
+    margin-right: 34px;
+
+}
+.extra-text{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 13px;
+    color:#FFC700;
+}

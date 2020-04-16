@@ -1,0 +1,38 @@
+
+nav{
+    display: flex;
+    position: absolute;
+    
+    align-items: center;
+    background-color: rgba(25, 23, 32, 0.5);
+    height: 78px;
+    width: 100%;
+    z-index: 1;
+}
+.nav_inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation{
+    margin-left: 130px;
+    margin-right: 137px;
+}
+.navigation a{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-right: 100px;
+    
+}
+.navigation a:last-child{
+    margin-right: 0px;
+}
+.nav_icons img{
+    margin-right: 47px;
+}
+.nav_icons img:last-child{
+    margin-right: 0px;
+}
